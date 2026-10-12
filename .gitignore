@@ -15,3 +15,9 @@ data/raw/
 models/
 *.safetensors
 *.ckpt
+
+# Downloaded release market data and temporary downloads
+data/market_data/
+data/*.tar.gz
+*.download.tmp
+*.restore.tmp

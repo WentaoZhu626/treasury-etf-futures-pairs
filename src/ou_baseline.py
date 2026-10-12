@@ -3,17 +3,17 @@ import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
 from pathlib import Path
+import os
 
 
 # ============================================================
 # 0. 参数区：你主要改这里
 # ============================================================
 
-ETF_FILE = Path("merged_data/511090_20250701_20251231_merged.csv")
+DATA_ROOT = Path(os.environ.get("MARKET_DATA_ROOT", str(Path(__file__).resolve().parents[1] / "data/market_data"))).expanduser()
+ETF_FILE = DATA_ROOT / "merged_data/511090_20250701_20251231_merged.csv"
 
-FUTURES_FILE = Path(
-    "/Users/zhu/Desktop/实习项目/盈远数据/国债期货合约数据/快照/30年TL合约/TL_main_snapshot.csv"
-)
+FUTURES_FILE = DATA_ROOT / "国债期货合约数据/快照/30年TL合约/TL_main_snapshot.csv"
 
 OUTPUT_DIR = Path("task2b_511090_ou_pair_trading_output")
 OUTPUT_DIR.mkdir(parents=True, exist_ok=True)

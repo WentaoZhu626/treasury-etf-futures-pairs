@@ -1,0 +1,176 @@
+{
+  "release_tag": "market-data-v1",
+  "archive": "treasury-etf-market-data-v1.tar.gz",
+  "archive_bytes": 217960924,
+  "archive_sha256": "356d7d4696fd467e361a2926155f3dc9db26a434c4455daed0813e505c5d9e55",
+  "download_url": "https://github.com/WentaoZhu626/treasury-etf-futures-pairs/releases/download/market-data-v1/treasury-etf-market-data-v1.tar.gz",
+  "file_count": 32,
+  "uncompressed_bytes": 1928152539,
+  "files": [
+    {
+      "path": "国债ETF数据/3秒快照/511090/511090.SH_20250701_20250731_snapshot.csv",
+      "bytes": 34252511,
+      "sha256": "f393de753fb12a67bfab7d082120f4013881b730a667062210ff74c87c1b2ea7"
+    },
+    {
+      "path": "国债ETF数据/3秒快照/511090/511090.SH_20250801_20250831_snapshot.csv",
+      "bytes": 31574403,
+      "sha256": "834b5be5f9585c9276625627a584d9a6b9e0aa8c476b3406ca9b275d937cd60e"
+    },
+    {
+      "path": "国债ETF数据/3秒快照/511090/511090.SH_20250901_20250930_snapshot.csv",
+      "bytes": 32951069,
+      "sha256": "a752a512960002d07ab3cd8bc657dfb4024a119331b050c0dd7be6e2b1f2f4c6"
+    },
+    {
+      "path": "国债ETF数据/3秒快照/511090/511090.SH_20251001_20251031_snapshot.csv",
+      "bytes": 25279420,
+      "sha256": "ff2ded1e7019abe2c9526fbec4c82b4e8ee0dc77f1da6fb88f76ea846bd0f11f"
+    },
+    {
+      "path": "国债ETF数据/3秒快照/511090/511090.SH_20251101_20251130_snapshot.csv",
+      "bytes": 29811064,
+      "sha256": "2ca1be0f91b08ab98119446e3b921f20b621c57c434f7c28ae7cff0f477ba086"
+    },
+    {
+      "path": "国债ETF数据/3秒快照/511090/511090.SH_20251201_20251231_snapshot.csv",
+      "bytes": 34126696,
+      "sha256": "202a76e39039d2376435abec42382ac5218e86b86255aedd90b625b75f4d0581"
+    },
+    {
+      "path": "国债ETF数据/3秒快照/511130/511130.SH_20260101_20260131_snapshot.csv",
+      "bytes": 29401439,
+      "sha256": "88202602ffec0cc6f2d3a8e2d3a519840eade5de5b12068665a8ace16d97c7aa"
+    },
+    {
+      "path": "国债ETF数据/3秒快照/511130/511130.SH_20260201_20260228_snapshot.csv",
+      "bytes": 20618309,
+      "sha256": "06f21e2a1db463a9cd12231bff959f595ad657a9ddb5d42eb9d631051e95411f"
+    },
+    {
+      "path": "债券数据/3秒快照/019742/019742.SH_20260101_20260131_snapshot.csv",
+      "bytes": 30861508,
+      "sha256": "19e5cc3942ded5fc230a2ba0fe9aaabac5cfc7cf0751288f9570eec191500e2f"
+    },
+    {
+      "path": "债券数据/3秒快照/019742/019742.SH_20260201_20260228_snapshot.csv",
+      "bytes": 21253086,
+      "sha256": "e89cb22a95a3c8138c62976ecd1708b2729312c5b3cc074ce1cc990e7f5e97d2"
+    },
+    {
+      "path": "债券数据/3秒快照/019742/019742.SH_20260301_20260312_snapshot.csv",
+      "bytes": 13707015,
+      "sha256": "a8648f41654e754ed5c18d227feef1e478e994113c3902d9e8b7a1663191cb80"
+    },
+    {
+      "path": "债券数据/3秒快照/019776/019776.SH_20260101_20260131_snapshot.csv",
+      "bytes": 28042891,
+      "sha256": "cadc1a346d90fdfeb21802a97cf106ce5b2e2ae4cfb8f503c534da7ddbb90076"
+    },
+    {
+      "path": "债券数据/3秒快照/019776/019776.SH_20260201_20260228_snapshot.csv",
+      "bytes": 19128855,
+      "sha256": "e34678dddec81a1c8f1075201ee10758bd03cd2536ab4244bcbf085b79d9a61e"
+    },
+    {
+      "path": "债券数据/3秒快照/019776/019776.SH_20260301_20260312_snapshot.csv",
+      "bytes": 12529623,
+      "sha256": "ed4be2cc04dc8acd99c85f0aa5bfd0dea3f3c9c7c810fd89d135541ced710531"
+    },
+    {
+      "path": "债券数据/3秒快照/019789/019789.SH_20260101_20260131_snapshot.csv",
+      "bytes": 28339115,
+      "sha256": "558a62fd6573b8ac48fec38507e2dcd42167a946681bdbba3ba00d63ec70b6ba"
+    },
+    {
+      "path": "债券数据/3秒快照/019789/019789.SH_20260201_20260228_snapshot.csv",
+      "bytes": 19211301,
+      "sha256": "3be0d8d4c23472f50ad712c20071bfd72aa9d7e5c55a2da56843a9d344d0289d"
+    },
+    {
+      "path": "债券数据/3秒快照/019789/019789.SH_20260301_20260312_snapshot.csv",
+      "bytes": 12554018,
+      "sha256": "80559d718deff212c7d2cc402bd4055c00a768f11e431966f3a9f2c78f9180fb"
+    },
+    {
+      "path": "债券数据/基本条款2026-03-17(019742.SH).xlsx",
+      "bytes": 12397,
+      "sha256": "1fbf79dbab0de4ef6775400fb070b1a43b1de7b652d0a2f3ce2404509a405104"
+    },
+    {
+      "path": "债券数据/基本条款2026-03-17(019776.SH).xlsx",
+      "bytes": 12395,
+      "sha256": "85a4cf1be923b6f34bf86b76d3b744206572ec2f4d9c6895066d067cbbf3b2e0"
+    },
+    {
+      "path": "债券数据/基本条款2026-03-17(019789.SH).xlsx",
+      "bytes": 12401,
+      "sha256": "4ca97dc1738668f7ca2e73df79e5eeebba9677a15b73fcedb74ac1ab0a7f3e1d"
+    },
+    {
+      "path": "国债期货合约数据/快照/30年TL合约/TL_main_snapshot.csv",
+      "bytes": 998501840,
+      "sha256": "c351dd3546aa40584ed6c6eae4fca90b8e83071e19d242726dcc5c46baa603ad"
+    },
+    {
+      "path": "merged_data/019742_20260101_20260228_merged.csv",
+      "bytes": 38043226,
+      "sha256": "1e38773af48d04247862c2a31e84613345bf2e53102cd87936c0d3b2e505cdf7"
+    },
+    {
+      "path": "merged_data/019776_20260101_20260228_merged.csv",
+      "bytes": 35838469,
+      "sha256": "8b01fb58111d6315716f063f0f56d7e4e2092427ab30399ca953ace2a6976228"
+    },
+    {
+      "path": "merged_data/019789_20260101_20260228_merged.csv",
+      "bytes": 35620543,
+      "sha256": "67a5220f7bebea5ae25a073ffd420d4327aad3bf8962f3d11b85781af9b6e962"
+    },
+    {
+      "path": "merged_data/511090_20250701_20251231_merged.csv",
+      "bytes": 148836527,
+      "sha256": "34389acd3cbaa79e8cdef37d47fa7f3bd7983e842cd894486246a6e4b5d4c230"
+    },
+    {
+      "path": "merged_data/511090_TL_20250701_20251231_merged.csv",
+      "bytes": 207646707,
+      "sha256": "9023336eb1a3e69d202fc44b416fefb4e61420ef142ac915b187b25c6cf50fe6"
+    },
+    {
+      "path": "merged_data/511130_20260101_20260228_merged.csv",
+      "bytes": 39899228,
+      "sha256": "ab5eb1ae7cdf984cddad7f263cbb608e54bdfe4bb197756cc692c0423ae6d9e7"
+    },
+    {
+      "path": "其他文件/511130_PCF清单_2024-12-31_2026-03-20.csv",
+      "bytes": 34720,
+      "sha256": "f2b1239f750fc7f8b2b11add864f44a4ff954ec6a62b884fbd7db157f7d30600"
+    },
+    {
+      "path": "其他文件/511130_现金差额_2024-12-31_2026-03-20.csv",
+      "bytes": 14570,
+      "sha256": "e3b1cc9d554ad02fefe77d276efb4b91bebb92b219cfd2a7a667e3c4d3567f02"
+    },
+    {
+      "path": "其他文件/基本条款2026-03-17(019742.SH).xlsx",
+      "bytes": 12397,
+      "sha256": "1fbf79dbab0de4ef6775400fb070b1a43b1de7b652d0a2f3ce2404509a405104"
+    },
+    {
+      "path": "其他文件/基本条款2026-03-17(019776.SH).xlsx",
+      "bytes": 12395,
+      "sha256": "85a4cf1be923b6f34bf86b76d3b744206572ec2f4d9c6895066d067cbbf3b2e0"
+    },
+    {
+      "path": "其他文件/基本条款2026-03-17(019789.SH).xlsx",
+      "bytes": 12401,
+      "sha256": "4ca97dc1738668f7ca2e73df79e5eeebba9677a15b73fcedb74ac1ab0a7f3e1d"
+    }
+  ],
+  "excluded": [
+    "测试题目录",
+    "所有题目、PDF、DOCX和TXT说明文件",
+    "临时文件、环境文件和凭据"
+  ]
+}

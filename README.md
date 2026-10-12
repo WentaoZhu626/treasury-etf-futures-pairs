@@ -6,9 +6,18 @@
 
 ## 数据与处理
 
-原实现清洗并对齐 ETF 与期货快照，处理期货换月、ETF分红和连续价差。原始高频数据未加入普通 Git 仓库：本地部分单个 CSV 超过100 MiB，期货主力快照约952 MiB。这里保留代码、已有结果及小体积派生表。
+原实现清洗并对齐 ETF 与期货快照，处理期货换月、ETF 分红和连续价差。完整行情数据已作为 [Market data v1 Release 附件](https://github.com/WentaoZhu626/treasury-etf-futures-pairs/releases/tag/market-data-v1) 发布：32 个 CSV / XLSX 文件，原始约 1.8 GiB，压缩包约 208 MiB。包括国债 ETF、债券和 TL 主力期货快照、合并后的数据，以及 PCF、现金差额与债券条款表。
 
-运行前需自行准备原 Notebook 使用的 ETF、期货、分红和换月数据，调整数据路径，并检查交易成本、时间区间、数据频率与参数。仓库没有声称只凭附带的小表即可重现完整历史结果。
+```bash
+# 下载压缩包，校验 SHA-256，再还原每个数据文件
+python prepare_market_data.py
+# 如果已经手动下载附件，可使用本地压缩包
+python prepare_market_data.py --archive /path/to/treasury-etf-market-data-v1.tar.gz --no-download
+```
+
+数据默认解压到 `data/market_data/`，各 Notebook 已使用这个目录；也可设置环境变量 `MARKET_DATA_ROOT` 指向自己的数据目录。`data/market_data_manifest.json` 列出完整文件清单、大小和 SHA-256。还原脚本逐文件校验，并拒绝覆盖内容不同的已有文件。
+
+公开数据包只有数据表，不包含测试题目录、题目文件、PDF、DOCX、TXT 说明、环境文件或凭据。运行前仍应核对交易成本、时间区间、数据频率和策略参数。
 
 ## 结果口径
 
